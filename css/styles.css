@@ -1,0 +1,76 @@
+/*---------------------------------------------*\
+    $COLORES
+\*---------------------------------------------*/
+/*---------------------------------------------*\
+    $FUENTES    
+\*---------------------------------------------*/
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  -webkit-padding-start: 20px;
+          padding-inline-start: 20px;
+  -webkit-padding-end: 20px;
+          padding-inline-end: 20px;
+}
+
+.header {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (auto)[2] 1fr;
+  grid-template-columns: repeat(2, auto) 1fr;
+  -webkit-padding-after: 13px;
+          padding-block-end: 13px;
+  border-block-end-width: 1px;
+  border-block-end-style: solid;
+  border-block-end-color: rgba(0, 0, 0, 0.1);
+}
+.header__search {
+  -webkit-margin-start: auto;
+          margin-inline-start: auto;
+}
+
+.navegacion {
+  height: 100%;
+}
+.navegacion ul {
+  height: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.navegacion__enlace {
+  font-family: "Oswald", sans-serif;
+}
+
+.logo--header {
+  height: 83px;
+  width: 332px;
+}
+
+.logo--footer {
+  height: 67.5px;
+  width: 270px;
+}

@@ -1,0 +1,6 @@
+.logo--header{
+    @include dimensionesImagne(83px,332px);
+}
+.logo--footer{
+    @include dimensionesImagne(67.5px,270px);
+}

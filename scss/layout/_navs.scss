@@ -1,0 +1,13 @@
+.navegacion{
+    height: 100%;
+    ul{
+        height: inherit;
+        display: flex; 
+        align-items: center;
+    }
+    li{
+    }
+    &__enlace{
+        font-family: $fuente-secundario;
+    }
+}
