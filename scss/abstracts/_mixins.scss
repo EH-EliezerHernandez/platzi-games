@@ -1,4 +1,11 @@
+//mixin para asignar el alto y el ancho
 @mixin dimensionesImagne($altura,$ancho){
     height: $altura;
     width: $ancho;
+}
+
+//Mizin paras calcular y asignar el font-size en rem y el line height  en rem.
+@mixin font-size($size-px){
+    font-size: calcularRem($size-px);
+    line-height: calcularRem($size-px) * 1.5;
 }
