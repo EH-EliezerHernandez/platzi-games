@@ -155,6 +155,29 @@ a {
   width: 60px;
 }
 
+/**********************************************\
+    $BOTONES
+\**********************************************/
+.btn--redondo {
+  display: inline-block;
+  padding: 5px;
+  -webkit-padding-start: 23px;
+          padding-inline-start: 23px;
+  -webkit-padding-end: 23px;
+          padding-inline-end: 23px;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.1);
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+}
+
+.btn--redondo {
+  border-radius: 30px;
+}
+
 .perfil {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -170,18 +193,22 @@ a {
           padding-block-start: 60px;
   background-color: #8841da;
 }
-.perfil .perfil__name {
+.perfil .perfil__name, .perfil .perfil__of-me {
   color: #fff;
   font-size: 1.5625rem;
   line-height: 2.34375rem;
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
 }
-.perfil .perfil__profesion {
+.perfil .perfil__profesion, .perfil .perfil__hobby {
   font-weight: 700;
   color: rgba(255, 255, 255, 0.5);
   font-size: 0.75rem;
   line-height: 1.125rem;
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
+}
+.perfil__container-btn {
+  -webkit-margin-before: 14px;
+          margin-block-start: 14px;
 }

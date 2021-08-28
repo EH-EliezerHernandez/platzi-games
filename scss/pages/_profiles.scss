@@ -16,10 +16,13 @@
         @include titulos($fuente-secundario);
         
     }
-    &__name{
+    &__name,&__of-me{
         @extend %titulo;
     }
-    &__profesion{
+    &__profesion,&__hobby{
         @extend %descripcion;
+    }
+    &__container-btn{
+        margin-block-start: 14px;   
     }
 }
