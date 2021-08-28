@@ -9,9 +9,17 @@
       src="https://kit.fontawesome.com/d9b5e74022.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Oswald:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/bases/normalize.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
   </head>
   <body>
-    <header class="header">
+    <header class="header container">
       <picture class="header__conteiner-logo">
         <img
           class="logo--header"
@@ -21,16 +29,16 @@
       </picture>
       <nav class="navegacion">
         <ul>
-          <li><a class="navegacion__enlace--dark">PlayStation</a></li>
-          <li><a class="navegacion__enlace--dark">Xbox</a></li>
-          <li><a class="navegacion__enlace--dark">Nintendo</a></li>
-          <li><a class="navegacion__enlace--dark">Pc</a></li>
-          <li><a class="navegacion__enlace--dark">Mobile</a></li>
+          <li><a class="navegacion__enlace--blue">PlayStation</a></li>
+          <li><a class="navegacion__enlace--blue">Xbox</a></li>
+          <li><a class="navegacion__enlace--blue">Nintendo</a></li>
+          <li><a class="navegacion__enlace--blue">Pc</a></li>
+          <li><a class="navegacion__enlace--blue">Mobile</a></li>
         </ul>
       </nav>
-      <div class="header__search">
-        <i class="fas fa-search"></i>
-        <p>search</p>
+      <div class="header__container-search">
+        <i class="fas fa-search header__search-icon"></i>
+        <p class="header__search">search</p>
       </div>
     </header>
     <main class="perfil">
