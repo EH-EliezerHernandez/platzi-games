@@ -51,6 +51,14 @@ a {
           padding-inline-end: 22px;
 }
 
+.estadisticas {
+  margin-top: 20px;
+  background-color: #fff;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 20px 33px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 20px 33px 0px rgba(0, 0, 0, 0.2);
+}
+
 /**********************************************\
     $HEADERS
 \**********************************************/
@@ -178,6 +186,43 @@ a {
   border-radius: 30px;
 }
 
+.estadisticas {
+  width: 50%;
+  max-width: 350px;
+  min-width: 280px;
+  padding: 14px;
+  -webkit-padding-before: 14px;
+          padding-block-start: 14px;
+  -webkit-padding-after: 14px;
+          padding-block-end: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-column-gap: 20px;
+     -moz-column-gap: 20px;
+          column-gap: 20px;
+}
+.estadisticas h3 {
+  white-space: pre-line;
+  color: #333333;
+  text-align: center;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  line-height: 1;
+}
+.estadisticas span {
+  opacity: 0.5;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+}
+.estadisticas span:before {
+  content: "\a";
+}
+
 .perfil {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -211,4 +256,8 @@ a {
 .perfil__container-btn {
   -webkit-margin-before: 14px;
           margin-block-start: 14px;
+}
+.perfil__of-me {
+  -webkit-margin-before: 20px;
+          margin-block-start: 20px;
 }
