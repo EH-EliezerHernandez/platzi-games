@@ -1,5 +1,5 @@
 //mixin para asignar el alto y el ancho
-@mixin dimensionesImagne($altura,$ancho){
+@mixin dimensionesImagen($altura,$ancho){
     height: $altura;
     width: $ancho;
 }
