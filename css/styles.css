@@ -51,7 +51,7 @@ a {
           padding-inline-end: 22px;
 }
 
-.ubicacion, .estadisticas {
+.galeria, .ubicacion, .estadisticas {
   width: 50%;
   max-width: 350px;
   min-width: 280px;
@@ -282,6 +282,19 @@ a {
   line-height: 1.125rem;
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
+}
+
+.galeria {
+  -webkit-margin-before: 10px;
+          margin-block-start: 10px;
+  padding: 30px;
+}
+.galeria .galeria__title {
+  color: #333333;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
 }
 
 .perfil {
