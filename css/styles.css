@@ -203,6 +203,7 @@ a {
   -webkit-column-gap: 20px;
      -moz-column-gap: 20px;
           column-gap: 20px;
+  color: #3f579a;
 }
 .estadisticas h3 {
   white-space: pre-line;
