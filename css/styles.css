@@ -204,7 +204,7 @@ a {
      -moz-column-gap: 20px;
           column-gap: 20px;
 }
-.estadisticas h3 {
+.estadisticas h2 {
   white-space: pre-line;
   color: #333333;
   text-align: center;
