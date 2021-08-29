@@ -1,7 +1,15 @@
 /**********************************************\
     $HELPERS
 \**********************************************/
-.container{
-    padding-inline-start: 22px;
-    padding-inline-end: 22px;
+.container {
+  padding-inline-start: 22px;
+  padding-inline-end: 22px;
+}
+%caja {
+  margin-top: 20px;
+  background-color: $color-claro;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 20px 33px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 20px 33px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 20px 33px 0px rgba(0, 0, 0, 0.2);
 }
