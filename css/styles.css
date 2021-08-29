@@ -52,7 +52,9 @@ a {
 }
 
 .estadisticas {
-  margin-top: 20px;
+  width: 50%;
+  max-width: 350px;
+  min-width: 280px;
   background-color: #fff;
   border-radius: 20px;
   -webkit-box-shadow: 0px 20px 33px 0px rgba(0, 0, 0, 0.2);
@@ -187,9 +189,7 @@ a {
 }
 
 .estadisticas {
-  width: 50%;
-  max-width: 350px;
-  min-width: 280px;
+  margin-top: 20px;
   padding: 14px;
   -webkit-padding-before: 14px;
           padding-block-start: 14px;
