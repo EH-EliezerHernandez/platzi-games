@@ -1,8 +1,8 @@
 .galeria{
     min-width: min-content;
-    @extend %caja;
     margin-block-start: 10px;
     padding: 30px;
+    @include caja(10px);
     .galeria__title{
         margin-block-end: 10px;
         color: $color-primario;

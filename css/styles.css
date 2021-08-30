@@ -51,16 +51,6 @@ a {
           padding-inline-end: 22px;
 }
 
-.galeria, .ubicacion, .estadisticas {
-  width: 50%;
-  max-width: 350px;
-  min-width: 280px;
-  background-color: #fff;
-  border-radius: 20px;
-  -webkit-box-shadow: 0px 20px 33px 0px rgba(0, 0, 0, 0.2);
-  box-shadow: 0px 20px 33px 0px rgba(0, 0, 0, 0.2);
-}
-
 /**********************************************\
     $HEADERS
 \**********************************************/
@@ -189,7 +179,6 @@ a {
 }
 
 .estadisticas {
-  margin-top: 20px;
   padding: 14px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -199,6 +188,15 @@ a {
   -webkit-column-gap: 20px;
      -moz-column-gap: 20px;
           column-gap: 20px;
+  -webkit-margin-before: 20px;
+          margin-block-start: 20px;
+  width: 50%;
+  max-width: 350px;
+  min-width: 280px;
+  background-color: #fff;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 20px 33px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 20px 33px 0px rgba(0, 0, 0, 0.2);
 }
 .estadisticas h2 {
   white-space: pre-line;
@@ -235,6 +233,15 @@ a {
   -webkit-padding-start: 50px;
           padding-inline-start: 50px;
   color: #333333;
+  -webkit-margin-before: 20px;
+          margin-block-start: 20px;
+  width: 50%;
+  max-width: 350px;
+  min-width: 280px;
+  background-color: #fff;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 20px 33px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 20px 33px 0px rgba(0, 0, 0, 0.2);
 }
 
 .ubicacion > *:nth-child(1) {
@@ -291,6 +298,14 @@ a {
   -webkit-margin-before: 10px;
           margin-block-start: 10px;
   padding: 30px;
+  margin-block-start: 10px;
+  width: 50%;
+  max-width: 350px;
+  min-width: 280px;
+  background-color: #fff;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 20px 33px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 20px 33px 0px rgba(0, 0, 0, 0.2);
 }
 .galeria .galeria__title {
   -webkit-margin-after: 10px;

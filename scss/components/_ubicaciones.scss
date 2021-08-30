@@ -1,5 +1,4 @@
 .ubicacion{
-    @extend %caja;
     display: grid;
     grid-template-columns: auto 1fr;
     grid-template-rows: repeat(2,auto);
@@ -8,6 +7,7 @@
     padding: 14px;
     padding-inline-start: 50px;
     color: $color-primario;
+    @include caja(20px);
     i{
         font-size: 40px;
         color: $color-variacion;

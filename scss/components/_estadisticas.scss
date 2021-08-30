@@ -1,11 +1,9 @@
 .estadisticas {
-  @extend %caja;
-  margin-top: 20px;
   padding: 14px;
   display: flex;
   justify-content: space-around;
   column-gap: 20px;
-
+  @include caja(20px);
   h2 {
     white-space: pre-line;
     color: $color-primario;
