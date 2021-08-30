@@ -36,18 +36,3 @@
         color: $color-claro;
     }
 }
-.redes-sociales{
-    @extend %navegacion;
-    padding-block-start: 32px;
-    ul{
-        gap: 10px;
-    }
-    p{
-        margin-inline-end: 40px;
-        color: $color-claro;
-        font-family: $fuente-primario;
-    }
-    i{
-        color: $color-claro;
-    }
-}

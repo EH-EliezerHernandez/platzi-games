@@ -92,21 +92,21 @@ a {
 /**********************************************\
     $NAVS
 \**********************************************/
-.redes-sociales, .navegacion--footer, .navegacion--header {
+.navegacion--footer, .navegacion--header {
   height: 100%;
 }
-.redes-sociales ul, .navegacion--footer ul, .navegacion--header ul {
+.navegacion--footer ul, .navegacion--header ul {
   height: inherit;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 @supports (gap: 20px) {
-  .redes-sociales ul, .navegacion--footer ul, .navegacion--header ul {
+  .navegacion--footer ul, .navegacion--header ul {
     gap: 16px;
   }
 }
-.redes-sociales a, .navegacion--footer a, .navegacion--header a {
+.navegacion--footer a, .navegacion--header a {
   -webkit-margin-end: 38px;
           margin-inline-end: 38px;
   font-weight: 700;
@@ -129,23 +129,6 @@ a {
           padding-block-start: 32px;
 }
 .navegacion--footer__enlace {
-  color: #fff;
-}
-
-.redes-sociales {
-  -webkit-padding-before: 32px;
-          padding-block-start: 32px;
-}
-.redes-sociales ul {
-  gap: 10px;
-}
-.redes-sociales p {
-  -webkit-margin-end: 40px;
-          margin-inline-end: 40px;
-  color: #fff;
-  font-family: "Lato", sans-serif;
-}
-.redes-sociales i {
   color: #fff;
 }
 
