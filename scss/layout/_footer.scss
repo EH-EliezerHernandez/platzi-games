@@ -1,0 +1,14 @@
+/**********************************************\
+    $FOOTERS
+\**********************************************/
+
+.footer{
+    display: grid;
+    grid-template-columns: repeat(2, auto) auto;
+    column-gap: 46px;
+    align-items: start;
+    justify-content: space-between;
+    height: 88px;
+    /*     padding-block-end: 20px; */
+    background-color: $color-primario;
+}
