@@ -1,33 +1,53 @@
 /**********************************************\
     $NAVS
 \**********************************************/
-.navegacion{
+%navegacion{
     height: 100%;
-    padding-block-start: 18px;
     
     ul{
         height: inherit;
         display: flex; 
-        align-items: center;
         @supports (gap: 20px){
             gap: 16px;
         }
     }
     
-    %vinculo{
+    a{
         margin-inline-end: 38px;
-        font-family: $fuente-secundario;
-        text-transform: uppercase;
         font-weight: 700;
         @include font-size(18px);
+        @include titulos($fuente-secundario);
         
     }
-    &__enlace--blue{
-        @extend %vinculo;
+}
+.navegacion--header{
+    @extend %navegacion;
+    padding-block-start: 38px;
+    &__enlace{
         color: $color-variacion;
     }
-    &__enlace--white{
-        @extend %vinculo;
+    
+}
+.navegacion--footer{
+    @extend %navegacion;
+    padding-block-start: 32px;
+
+    &__enlace{
+        color: $color-claro;
+    }
+}
+.redes-sociales{
+    @extend %navegacion;
+    padding-block-start: 32px;
+    ul{
+        gap: 10px;
+    }
+    p{
+        margin-inline-end: 40px;
+        color: $color-claro;
+        font-family: $fuente-primario;
+    }
+    i{
         color: $color-claro;
     }
 }
