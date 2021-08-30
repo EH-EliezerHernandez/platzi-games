@@ -1,0 +1,31 @@
+.perfil{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block-start: 60px;
+    background-color: $color-secundario;
+    %titulo{
+        color: $color-claro;
+        @include font-size(25px);
+        @include titulos($fuente-secundario);
+    }
+    %descripcion{
+        font-weight: 700;
+        color: rgba($color-claro,.5);
+        @include font-size(12px);
+        @include titulos($fuente-secundario);
+        
+    }
+    &__name,&__of-me{
+        @extend %titulo;
+    }
+    &__profesion,&__hobby{
+        @extend %descripcion;
+    }
+    &__container-btn{
+        margin-block-start: 14px;   
+    }
+    &__of-me{
+        margin-block-start: 20px;
+    }
+}

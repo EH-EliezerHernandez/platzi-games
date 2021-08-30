@@ -1,5 +1,5 @@
 //mixin para asignar el alto y el ancho
-@mixin dimensionesImagne($altura,$ancho){
+@mixin dimensionesImagen($altura,$ancho){
     height: $altura;
     width: $ancho;
 }
@@ -8,4 +8,24 @@
 @mixin font-size($size-px){
     font-size: calcularRem($size-px);
     line-height: calcularRem($size-px) * 1.5;
+}
+
+//mixin para los titulos que asigna a los titulos los la fuente y uppercase
+@mixin titulos($fuente){
+    font-family: $fuente;
+    @if($fuente == $fuente-secundario){
+        text-transform: uppercase;
+    }
+}
+
+@mixin caja($margin-top) {
+    margin-block-start: $margin-top;
+    width: 50%;
+  max-width: 350px;
+  min-width: 280px;
+  background-color: $color-claro;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 20px 33px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 20px 33px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 20px 33px 0px rgba(0, 0, 0, 0.2);
 }

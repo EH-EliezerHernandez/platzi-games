@@ -1,0 +1,20 @@
+/**********************************************\
+    $BOTONES
+\**********************************************/
+
+%btn{
+    display: inline-block;
+    padding: 5px;
+    padding-inline-start: 23px;
+    padding-inline-end: 23px;
+    border: 2px solid rgba($color-claro,.4);
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $color-claro;
+    background-color: rgba(0,0,0,0.1);
+    @include titulos($fuente-secundario);
+}
+.btn--redondo{
+    border-radius: 30px;
+    @extend %btn;
+}

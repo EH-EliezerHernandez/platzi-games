@@ -1,0 +1,29 @@
+.ubicacion{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: repeat(2,auto);
+    column-gap: 10px;
+    margin-block-start: 30px;
+    padding: 14px;
+    padding-inline-start: 50px;
+    color: $color-primario;
+    @include caja(20px);
+    i{
+        font-size: 40px;
+        color: $color-variacion;
+        grid-row: 1 / 3;
+
+    }
+    &__country{
+        grid-column: 2 / 3;
+        @include font-size(20px);
+        @include titulos($fuente-secundario);
+    }
+    &__distance{
+        grid-column: 2 / 3;
+        font-weight: 700;
+        opacity: .5;
+        @include font-size(12px);
+        @include titulos($fuente-secundario)
+    }
+}
